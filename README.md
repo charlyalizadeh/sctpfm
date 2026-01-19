@@ -10,6 +10,12 @@ My approach to write the code was to:
 1. Try to implement it without looking at the original code, i.e. using the article and the RFC 9260
 2. If the code wasn't working using the first approach I would read the original code and reimplement it myself with some personal modification most of the times
 
+# Visualisation tool
+
+To help me debug my code I implemented a small tool in C++ to generate UML Sequence Diagram description (txt) from
+the output of `spin` using the `-p` option.
+This tool generate text that can be pasted to [](https://sequencediagram.org/).
+
 
 # Credit:
 
